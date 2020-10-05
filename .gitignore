@@ -238,5 +238,8 @@ runs/
 runs/*
 outputs/
 outputs/*
+logs/
+logs/*
+
 
 # End of https://www.toptal.com/developers/gitignore/api/python,linux,macos,windows,visualstudiocode,jupyternotebooks

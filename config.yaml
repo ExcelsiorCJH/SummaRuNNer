@@ -1,0 +1,24 @@
+model_params:
+    embed_dim: 100
+    hidden_dim: 128
+    num_layers: 1
+    bidirectional: True
+    dropout_p: 0.3
+    maxlen: 50
+
+exp_params:
+    train_path: "./data/train.json"
+    valid_path: "./data/val.json"
+    test_path: "./data/test.json"
+    vocab_path: "./data/word_index.pkl"
+    batch_size: 32
+    LR: 0.001
+
+trainer_params:
+    gpus: 1
+    max_epochs: 30
+
+logging_params:
+    save_dir: "logs/"
+    name: "SummaRuNNer"
+    manual_seed: 42
